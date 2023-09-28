@@ -39,10 +39,10 @@ func (u *User) Update(message string) {
     fmt.Printf("User %s received message: %s\n", u.name, message)
 }
 func main() {
-    // Создаем мессенджер (субъект)
+    // Создаем мессенджер
     messenger := Messenger{}
 
-    // Создаем пользователей (наблюдателей)
+    // Создаем пользователей
     user1 := NewUser("Make")
     user2 := NewUser("Sake")
     user3 := NewUser("Take")
